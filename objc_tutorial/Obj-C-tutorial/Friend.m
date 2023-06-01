@@ -11,7 +11,7 @@
 // 클래스 확장 - 클래스 안에서 사용
 @interface Friend ()
 {
-    NSString *_name;
+    NSString *_name; //클래스 안에서만 사용가능한 변수(인스턴스 변수)
 }
 @end
 

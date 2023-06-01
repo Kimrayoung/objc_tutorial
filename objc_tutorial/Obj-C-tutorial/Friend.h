@@ -16,6 +16,7 @@
 @property NSString *nickname;
 
 
+
 // 인스턴스 메소드 - 객채 생성후 그 녀석이 가지고 있는 메소드
 - (void)sayHello;
 

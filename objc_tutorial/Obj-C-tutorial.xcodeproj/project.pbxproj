@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0587A32A1F62F9001281A7 /* Friend+Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0587A22A1F62F9001281A7 /* Friend+Info.m */; };
+		4D0587A62A1FA4CF001281A7 /* NSDate+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0587A52A1FA4CF001281A7 /* NSDate+Helpers.m */; };
+		4D0587AF2A20BBA3001281A7 /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0587AE2A20BBA3001281A7 /* Pet.m */; };
+		4D0587B22A20E080001281A7 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0587B12A20E080001281A7 /* Cat.m */; };
+		4D0587B52A20E87D001281A7 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0587B42A20E87D001281A7 /* BlockTest.m */; };
 		F2AA6F06296289C400483515 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AA6F05296289C400483515 /* AppDelegate.m */; };
 		F2AA6F09296289C400483515 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AA6F08296289C400483515 /* SceneDelegate.m */; };
 		F2AA6F0C296289C400483515 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AA6F0B296289C400483515 /* ViewController.m */; };
@@ -18,6 +23,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D0587A12A1F62F9001281A7 /* Friend+Info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Friend+Info.h"; sourceTree = "<group>"; };
+		4D0587A22A1F62F9001281A7 /* Friend+Info.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Friend+Info.m"; sourceTree = "<group>"; };
+		4D0587A42A1FA4CF001281A7 /* NSDate+Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helpers.h"; sourceTree = "<group>"; };
+		4D0587A52A1FA4CF001281A7 /* NSDate+Helpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helpers.m"; sourceTree = "<group>"; };
+		4D0587AD2A20BBA2001281A7 /* Pet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pet.h; sourceTree = "<group>"; };
+		4D0587AE2A20BBA3001281A7 /* Pet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pet.m; sourceTree = "<group>"; };
+		4D0587B02A20E080001281A7 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		4D0587B12A20E080001281A7 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		4D0587B32A20E87D001281A7 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
+		4D0587B42A20E87D001281A7 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
+		4D0587BA2A27A633001281A7 /* MyPet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPet.h; sourceTree = "<group>"; };
 		F2AA6F01296289C400483515 /* Obj-C-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Obj-C-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AA6F04296289C400483515 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2AA6F05296289C400483515 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +93,17 @@
 				F2AA6F12296289C500483515 /* LaunchScreen.storyboard */,
 				F2AA6F15296289C500483515 /* Info.plist */,
 				F2AA6F16296289C500483515 /* main.m */,
+				4D0587A12A1F62F9001281A7 /* Friend+Info.h */,
+				4D0587A22A1F62F9001281A7 /* Friend+Info.m */,
+				4D0587A42A1FA4CF001281A7 /* NSDate+Helpers.h */,
+				4D0587A52A1FA4CF001281A7 /* NSDate+Helpers.m */,
+				4D0587AD2A20BBA2001281A7 /* Pet.h */,
+				4D0587AE2A20BBA3001281A7 /* Pet.m */,
+				4D0587B02A20E080001281A7 /* Cat.h */,
+				4D0587B12A20E080001281A7 /* Cat.m */,
+				4D0587B32A20E87D001281A7 /* BlockTest.h */,
+				4D0587B42A20E87D001281A7 /* BlockTest.m */,
+				4D0587BA2A27A633001281A7 /* MyPet.h */,
 			);
 			path = "Obj-C-tutorial";
 			sourceTree = "<group>";
@@ -152,10 +179,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2AA6F0C296289C400483515 /* ViewController.m in Sources */,
+				4D0587AF2A20BBA3001281A7 /* Pet.m in Sources */,
+				4D0587A32A1F62F9001281A7 /* Friend+Info.m in Sources */,
+				4D0587B22A20E080001281A7 /* Cat.m in Sources */,
 				F2AA6F1F29628AF800483515 /* Friend.m in Sources */,
 				F2AA6F06296289C400483515 /* AppDelegate.m in Sources */,
 				F2AA6F17296289C500483515 /* main.m in Sources */,
+				4D0587B52A20E87D001281A7 /* BlockTest.m in Sources */,
 				F2AA6F09296289C400483515 /* SceneDelegate.m in Sources */,
+				4D0587A62A1FA4CF001281A7 /* NSDate+Helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

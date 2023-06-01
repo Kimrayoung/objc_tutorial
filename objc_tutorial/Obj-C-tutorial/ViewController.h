@@ -6,6 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyPet.h"
+#import "Cat.h"
 
 @interface ViewController : UIViewController
 
